@@ -3,6 +3,11 @@ body {
     font-size: 15px;
     color: hsl(0, 0%, 100%);
     font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 p {
@@ -45,14 +50,15 @@ h3 {
     border-radius: 1%;
     display: flex;
     flex-flow: row nowrap;
-    margin: 10% 13% 20px;
+    margin: 12% 0 20px;
+    width: 90%;
     position: relative;
 }
 
 .flex-text {
     display: flex;
     flex: 50%;
-    padding: 4% 10% 0 6%;
+    padding: 4% 6% 0 5%;
     min-width: 150px;
     flex-wrap: wrap;
 }
@@ -96,13 +102,12 @@ h3 {
     z-index: 1;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 660px) {
     body {
         text-align: center;
     }
     .flex-container {
         flex-flow: column-reverse nowrap;
-        margin: 15% 4% 20px;
     }
     .flex-text {
         margin: 3%;
@@ -128,6 +133,7 @@ h3 {
 
 @media (max-width: 1050px) {
     .flex-container {
-        margin: 15% 5% 20px;
+        width: 95%;
     }
 }
+
