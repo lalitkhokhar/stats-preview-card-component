@@ -51,7 +51,7 @@ h3 {
     display: flex;
     flex-flow: row nowrap;
     margin: 12% 0 20px;
-    width: 90%;
+    width: 70%;
     position: relative;
 }
 
@@ -131,9 +131,15 @@ h3 {
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1220px) {
     .flex-container {
         width: 95%;
+    }
+}
+
+@media (max-width: 1500px) and (min-width: 1221px){
+    .flex-container {
+        width: 80%;
     }
 }
 
