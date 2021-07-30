@@ -126,7 +126,7 @@ h3 {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
     .flex-container {
         margin: 15% 5% 20px;
     }
